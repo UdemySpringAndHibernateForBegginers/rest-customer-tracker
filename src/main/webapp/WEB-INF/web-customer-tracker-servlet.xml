@@ -36,7 +36,7 @@
 	<bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		  destroy-method="close">
 		<property name="driverClass" value="org.h2.Driver" />
-		<property name="jdbcUrl" value="jdbc:h2:file:~/web_customer_tracker" />
+		<property name="jdbcUrl" value="jdbc:h2:file:~/test_web_customer_tracker;SCHEMA=PUBLIC" />
 		<property name="user" value="sa" />
 		<property name="password" value="" />
 

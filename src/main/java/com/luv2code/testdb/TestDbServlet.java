@@ -26,7 +26,7 @@ public class TestDbServlet extends HttpServlet {
     private String driverClassName = "org.h2.Driver";
 
     //@Value("${spring.datasource.url}")
-    private String url = "jdbc:h2:file:~/web_customer_tracker";
+    private String url = "jdbc:h2:file:~/test_web_customer_tracker;SCHEMA=PUBLIC";
 
     //@Value("${spring.datasource.username}")
     private String username = "sa";
